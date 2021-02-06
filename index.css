@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+#btn {
+
+    border-radius: 0;
+    border-width: 2px;
+    position: relative;
+    bottom: 260px;
+    margin-bottom: 50px;
+}
+
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+
+.section-intro {
+    height: 820px;
+    background-image: url(img/dav4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-intro h1 {
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-to-book-wrapper {
+    flex: 1;
+}
+
+.about-section {
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #82b74b;
+    padding: 50px 30px;
+}
+
+.link-to-book {
+    color: #ffffff;
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+
+.about-section p {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+.about-section h1 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+}
+
+.carousel-inner {
+    height: 625px;
+}
+#contact-color {
+
+    color: white;
+background-color: #405d27;
+width: 100%;
+height: 350px;
+}
+
+.row-flex {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+}
+
+.btn.btn-primary {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    background-color: #405d27;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 0;
+}
+
+.btn.btn-primary:hover {
+    background-color: #747474;
+}
+.opening-time,
+.contact-adress {
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 1.2em;
+}
+
+.form-group p {
+    font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-adress p span {
+    display: block;
+}
+
+@media (min-width:577px) and (max-width: 800px) {
+
+    .section-intro {
+        height: 600px;
+    }
+    #chard {
+   position: relative;
+   top: 20px;
+    }
+    #btn {
+     position: relative;
+     bottom: 120px;
+
+ 
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+     #contact-color {
+        height: 550px;
+    }
+     .icon {
+    position: relative;
+    left: 25px
+}
+}
+
+@media screen and (max-width: 576px) {
+
+    .section-intro {
+        height: 660px;
+    }
+
+    .about-section {
+        padding: 30px;
+    }
+
+    .section-intro h1 {
+        font-size: 3em;
+    }
+    #who {
+        font-size: 2em;
+    }
+
+    .about-section p {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-flex h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .form-group p {
+        font-size: 15px;
+    }
+
+    .opening-time p span,
+    .contact-adress p span {
+        font-size: 15px;
+        text-align: center;
+    }
+    #contact-color {
+        height: 500px;
+    }
+    .icon {
+    position: relative;
+    left: 20px
+}
+
+    #btn {
+     position: relative;
+     bottom: 100px;
+
+ 
+    }
+    #chard {
+   position: relative;
+   top: -10px;
+   font-size: 4em;
+    }
+
+}
+#footer {
+    font-size: 1em;
+    color: white;
+    height: 70px;
+    background-color: #3e4444;
+}
+#text {
+    padding-top: 25px;
+}
+#map {
+    height: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+#fb {
+    position: relative;
+    right: 50px;
+}
+@media (min-width:800px) {
+    #contact-color {
+        padding-top: 50px;
+    }
+    .icon {
+        padding-top: 30px;
+    }
+    #btn {
+        margin-top: 60px;
+    }
+
+}
